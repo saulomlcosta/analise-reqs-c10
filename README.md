@@ -30,6 +30,8 @@ Os artefatos escolhidos foram:
 ```text
 .
 |-- README.md
+|-- decisoes
+|   `-- 01-decisoes-de-especificacao.md
 `-- especificacao
     |-- 01-analise-do-documento.md
     |-- 02-catalogo-de-requisitos.md
@@ -79,3 +81,13 @@ Algumas sugestoes precisaram ser ajustadas:
 ## Por que estes artefatos foram considerados os mais adequados
 
 O documento de elicitacao mostra um problema real de negocio, mas com lacunas relevantes. Por isso, os artefatos escolhidos ajudam primeiro a **estruturar o entendimento**, **evitar ambiguidade** e **preservar rastreabilidade**. Em um contexto como esse, uma boa especificacao inicial precisa deixar claro tanto o que ja se sabe quanto o que ainda precisa ser decidido.
+
+## Rastreabilidade
+
+O repositorio organiza os artefatos de forma encadeada:
+
+- a analise inicial identifica fatos, lacunas e riscos do documento de elicitacao;
+- o catalogo consolida requisitos, regras de negocio e RNFs com identificadores estaveis;
+- as historias de usuario detalham parte desses requisitos com criterios de aceitacao;
+- as questoes em aberto mostram o que ainda bloqueia definicoes mais precisas;
+- o registro em [decisoes/01-decisoes-de-especificacao.md](/C:/Users/saulo/WWW/AKCITPROJECTS/analise-reqs-c10/decisoes/01-decisoes-de-especificacao.md) documenta por que esse formato de entrega foi adotado.
