@@ -90,4 +90,4 @@ O repositorio organiza os artefatos de forma encadeada:
 - o catalogo consolida requisitos, regras de negocio e RNFs com identificadores estaveis;
 - as historias de usuario detalham parte desses requisitos com criterios de aceitacao;
 - as questoes em aberto mostram o que ainda bloqueia definicoes mais precisas;
-- o registro em [decisoes/01-decisoes-de-especificacao.md](/C:/Users/saulo/WWW/AKCITPROJECTS/analise-reqs-c10/decisoes/01-decisoes-de-especificacao.md) documenta por que esse formato de entrega foi adotado.
+- o registro em [decisoes/01-decisoes-de-especificacao.md](decisoes/01-decisoes-de-especificacao.md) documenta por que esse formato de entrega foi adotado.
