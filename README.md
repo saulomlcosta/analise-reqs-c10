@@ -1,22 +1,35 @@
-# mc10-engenharia-requisitos-ia
+# Sistema de Gestao de Eventos - Eventus
 
-Atividade pratica da unidade sobre uso de IA Generativa no apoio a especificacao de requisitos. O ponto de partida foi o documento de elicitacao do **Sistema de Gestao de Eventos** apresentado no material da disciplina.
+> Exercicio da pos-graduacao em **Engenharia de Software com IA - UFG**.
+> Trabalho academico de especificacao de requisitos com apoio de IA Generativa.
+
+Este repositorio apresenta a atividade pratica da unidade a partir do documento de elicitacao do **Sistema de Gestao de Eventos (Eventus)**. O objetivo foi transformar o material inicial em artefatos de especificacao mais organizados, rastreaveis e revisaveis, mantendo explicitas as ambiguidades e pendencias do problema.
 
 ## Objetivo
 
-Transformar o texto de elicitacao em artefatos de especificacao mais claros, rastreaveis e revisaveis, usando IA como apoio para:
+Organizar o conteudo levantado na elicitacao em artefatos que apoiem melhor a analise e a especificacao do sistema, usando IA como apoio para:
 
 - identificar requisitos funcionais, nao funcionais e regras de negocio;
 - explicitar ambiguidades e pendencias;
 - sugerir artefatos de especificacao adequados;
 - acelerar a redacao inicial dos artefatos, com revisao humana posterior.
 
+## Escopo da entrega
+
+Este projeto foi desenvolvido como **exercicio academico**, com foco em engenharia de requisitos. Diferentemente de um repositorio mais amplo de produto, aqui o foco esta em produzir artefatos de especificacao claros a partir da elicitacao fornecida pela disciplina.
+
+Os artefatos escolhidos foram:
+
+- **analise do documento de elicitacao**, para separar fatos levantados, lacunas e pontos de risco;
+- **catalogo de requisitos**, para consolidar requisitos funcionais, nao funcionais e regras de negocio com identificadores;
+- **historias de usuario com criterios de aceitacao**, para tornar os requisitos mais claros e verificaveis;
+- **lista de questoes em aberto**, para registrar o que ainda precisa ser validado com stakeholders.
+
 ## Estrutura do repositorio
 
 ```text
 .
 |-- README.md
-|-- discussion-post.md
 `-- especificacao
     |-- 01-analise-do-documento.md
     |-- 02-catalogo-de-requisitos.md
@@ -24,16 +37,16 @@ Transformar o texto de elicitacao em artefatos de especificacao mais claros, ras
     `-- 04-questoes-em-aberto.md
 ```
 
-## Artefatos escolhidos
+## Contexto do problema
 
-Os artefatos selecionados para este projeto foram:
+A empresa ficticia **Eventus** organiza congressos, workshops e eventos corporativos. O processo atual depende de formularios on-line e planilhas, o que dificulta o controle de vagas, confirmacao de pagamentos, cancelamentos e emissao de certificados.
 
-- **analise do documento de elicitacao**, para separar fatos levantados, lacunas e pontos de risco;
-- **catalogo de requisitos**, para consolidar requisitos funcionais, nao funcionais e regras de negocio com identificadores;
-- **historias de usuario com criterios de aceitacao**, para tornar os requisitos mais claros e verificaveis;
-- **lista de questoes em aberto**, para registrar o que ainda precisa ser validado com stakeholders.
+Com base nisso, a proposta do exercicio foi analisar o documento de elicitacao e estruturar uma especificacao inicial que deixasse claro:
 
-Considerei esse conjunto mais adequado porque o material apresenta necessidades claras do negocio, mas tambem varias indefinicoes importantes. Antes de pensar em prototipos ou modelagens mais detalhadas, fez mais sentido organizar o entendimento do problema, tornar os requisitos rastreaveis e destacar tudo o que ainda nao pode ser decidido com seguranca.
+- o que ja esta definido;
+- o que ainda esta ambiguo;
+- o que depende de validacao com stakeholders;
+- e quais requisitos adicionais, especialmente nao funcionais, precisam ser considerados.
 
 ## Como a IA foi utilizada
 
